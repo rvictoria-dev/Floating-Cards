@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.float-stack {
+  position: relative;
+  width: 70px;
+  height: 80px;
+}
+
+.float-card {
+  position: absolute;
+  width: 56px;
+  height: 64px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.fc1 {
+  background: #3D6350;
+  top: 0px;
+  left: 0px;
+  animation: floatA 3s ease-in-out infinite;
+}
+
+.fc2 {
+  background: #473966;
+  top: 8px;
+  left: 8px;
+  animation: floatB 3s ease-in-out infinite 0.4s;
+}
+
+.fc3 {
+  background: #4D6A82;
+  top: 16px;
+  left: 16px;
+  animation: floatC 3s ease-in-out infinite 0.8s;
+}
+
+@keyframes floatA {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+
+@keyframes floatB {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-5px); }
+}
+
+@keyframes floatC {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-2px); }
+}
