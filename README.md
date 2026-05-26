@@ -2,7 +2,7 @@
 
 ### ✨ About
 
-A simple and cute CSS animation of stacked floating cards — built while learning and loving frontend development.
+A simple and cute CSS animation of stacked floating cards — built while learning and loving frontend development. Floating Cards is a pure CSS animation project where three layered cards float gently in a cascading motion, creating a smooth depth effect. The project was born from a curiosity about CSS animations and turned into a fun stufy on keyframes, transforms, and visual design.
 
 ---
 
