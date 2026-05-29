@@ -26,4 +26,4 @@ A simple and cute CSS animation of stacked floating cards — built while learni
 
 ### 🎬 Preview
 
-https://github.com/user-attachments/assets/333d6204-9c89-4439-9709-397051083208
+https://github.com/user-attachments/assets/09a7daf5-cd9d-4e38-b3ef-e892676583e0
